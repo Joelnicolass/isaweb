@@ -1,0 +1,1 @@
+export { VinylReveal } from "./VinylReveal";

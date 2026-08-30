@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "title": "Isabella Amaro — Ojos Achinados",
+    "description": "Landing de Isabella Amaro, artista folk indie. Escuchá Ojos Achinados en Spotify."
+  },
+  "nav": {
+    "menu": "Menu",
+    "close": "[ x ]",
+    "brand": "IA",
+    "hero": "Inicio",
+    "vinyl": "Sencillo",
+    "listen": "Redes"
+  },
+  "hero": {
+    "kicker": "Nuevo lanzamiento",
+    "subtitle": "Folk indie",
+    "cta": "Escuchar en Spotify",
+    "photoAlt": "Isabella Amaro tocando guitarra acústica"
+  },
+  "marquee": {
+    "separator": "—"
+  },
+  "vinyl": {
+    "label": "Sencillo",
+    "index": "[ 01 ]",
+    "cta": "Escuchar en Spotify",
+    "preview": "Adelanto"
+  },
+  "listen": {
+    "label": "Redes",
+    "index": "[ 02 ]",
+    "intro": "Una voz íntima, guitarra acústica y canciones que se quedan. Seguí a Isabella y escuchá Ojos Achinados.",
+    "arrow": "[ → ]"
+  },
+  "footer": {
+    "credit": "Isabella Amaro",
+    "year": "2026"
+  },
+  "social": {
+    "spotify": "Spotify",
+    "instagram": "Instagram",
+    "tiktok": "TikTok"
+  },
+  "a11y": {
+    "openMenu": "Abrir menú",
+    "closeMenu": "Cerrar menú",
+    "skip": "Saltar al contenido",
+    "nextSection": "Siguiente sección"
+  }
+}

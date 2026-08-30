@@ -1,0 +1,22 @@
+export const s = {
+  scope: "relative min-h-dvh",
+  root: "@container relative mx-auto flex min-h-dvh w-full max-w-page flex-col overflow-hidden bg-ink px-8 py-28 md:px-16 md:py-32",
+  ghost:
+    "pointer-events-none absolute inset-x-0 top-1/2 -z-0 w-full -translate-y-1/2 px-4 text-center font-display text-[clamp(3.5rem,12cqi,8rem)] font-extrabold uppercase leading-[0.82] text-paper/10 will-change-transform",
+  head: "relative z-10 flex items-start justify-between",
+  year: "font-mono text-[11px] uppercase tracking-[0.32em] text-ember",
+  body: "relative z-10 mt-16 flex flex-1 flex-col items-center justify-center gap-16 md:mt-20 md:flex-row md:items-center md:gap-20 lg:gap-28",
+  stage: "relative flex size-[min(58vw,300px)] shrink-0 items-center justify-center md:size-[360px] lg:size-[400px]",
+  discWrap: "absolute inset-0 origin-center will-change-transform",
+  disc: "size-full",
+  mask: "relative size-[88%] origin-center overflow-hidden will-change-transform",
+  cover: "object-cover",
+  copy: "flex w-full max-w-md flex-col items-center gap-8 text-center md:items-start md:text-left",
+  title: "overflow-hidden text-4xl text-paper md:text-6xl lg:text-7xl",
+  rule: "h-px w-24 origin-left bg-ember md:w-40",
+  actions: "flex w-full flex-col items-center gap-8 md:items-start",
+  cta: "border-ember bg-ember text-ink hover:border-paper hover:bg-paper",
+  player: "w-full border border-ember/50 bg-ink/40",
+  playerLabel: "px-5 pt-4 font-mono text-[11px] uppercase tracking-[0.32em] text-ember",
+  embed: "w-full",
+};
