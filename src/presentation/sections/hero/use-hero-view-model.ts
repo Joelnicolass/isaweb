@@ -4,7 +4,10 @@ import { useRef } from "react";
 import { VINYL_PIN_ID } from "@/presentation/animations/constants";
 import { useCtaArrow } from "@/presentation/animations/hooks/use-cta-arrow";
 import { usePianoPortrait } from "@/presentation/animations/hooks/use-piano-portrait";
-import { useHeroPhoto, useSplitReveal } from "@/presentation/animations/hooks/use-split-reveal";
+import {
+  useHeroPhoto,
+  useSplitReveal,
+} from "@/presentation/animations/hooks/use-split-reveal";
 import { useScrollToNext } from "@/presentation/animations/hooks/use-scroll-to";
 import { DataAttr } from "@/presentation/shared/data-attr";
 import { SectionId } from "@/shared/site";

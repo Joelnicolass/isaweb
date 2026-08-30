@@ -64,16 +64,28 @@ export function Hero() {
                       />
                     </div>
                   ))}
-                  <div className={s.shutters} aria-hidden {...{ [DataAttr.HeroShutters]: "" }}>
+                  <div
+                    className={s.shutters}
+                    aria-hidden
+                    {...{ [DataAttr.HeroShutters]: "" }}
+                  >
                     {whiteKeys.map((id) => (
-                      <span key={id} className={s.shutter} {...{ [DataAttr.HeroShutter]: "" }} />
+                      <span
+                        key={id}
+                        className={s.shutter}
+                        {...{ [DataAttr.HeroShutter]: "" }}
+                      />
                     ))}
                   </div>
                 </div>
                 <div className={s.piano} aria-hidden>
                   <div className={s.whites}>
                     {whiteKeys.map((id) => (
-                      <span key={id} className={s.whiteKey} {...{ [DataAttr.HeroKey]: "" }} />
+                      <span
+                        key={id}
+                        className={s.whiteKey}
+                        {...{ [DataAttr.HeroKey]: "" }}
+                      />
                     ))}
                   </div>
                   <div className={s.blacks}>
